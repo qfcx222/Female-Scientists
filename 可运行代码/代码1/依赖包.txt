@@ -1,0 +1,4 @@
+python-docx
+jieba
+pandas
+opencc-python-reimplemented

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-12-02T14:55:36.516506",
+  "overall_score": 4.68586970975523,
+  "dimension_scores": {
+    "data_quality": 10.0,
+    "sentiment_quality": 6.743478839020919,
+    "network_quality": 0.0
+  },
+  "recommendations": [
+    "优化关系提取规则，提高命名实体识别准确率"
+  ],
+  "rating": "中等",
+  "color": "yellow"
+}

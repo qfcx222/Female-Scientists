@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-02T15:08:20.809417",
+  "overall_score": 6.643116102301942,
+  "dimension_scores": {
+    "data_quality": 9.6,
+    "sentiment_quality": 6.850626004575023,
+    "network_quality": 3.6380952380952376,
+    "topic_quality": 5.704678958171883
+  },
+  "recommendations": [
+    "改进关系提取算法，提高准确率",
+    "调整主题数量或尝试不同建模算法"
+  ],
+  "performance_stats": {
+    "load_time": 13.509982,
+    "sentiment_time": 1.175645,
+    "network_time": 0.181224,
+    "topic_time": 0.031025
+  },
+  "rating": "良好",
+  "color": "blue"
+}

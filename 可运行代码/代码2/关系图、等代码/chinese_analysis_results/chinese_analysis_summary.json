@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-28T20:27:21.762818",
+    "num_scientists": 9,
+    "analysis_version": "chinese_v1.0"
+  },
+  "quality_metrics": {
+    "data_loading": {
+      "total_files": 10,
+      "valid_files": 9,
+      "success_rate": 0.9,
+      "avg_text_length": 31030.88888888889,
+      "avg_sentence_count": 5786.555555555556,
+      "avg_ttr": 0.2712083848368034
+    },
+    "sentiment_analysis": {
+      "avg_confidence": 0.12344257248887477,
+      "avg_sentiment": 0.0025258824092670145,
+      "sentiment_diversity": 0.13964817588846085,
+      "data_points": 

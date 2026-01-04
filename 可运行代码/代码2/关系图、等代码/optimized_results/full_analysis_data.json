@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-02T15:10:24.352584",
+    "num_scientists": 9,
+    "analysis_version": "optimized_v2.0"
+  },
+  "quality_metrics": {
+    "data_loading": {
+      "total_files": 10,
+      "valid_files": 9,
+      "success_rate": 0.9,
+      "avg_text_length": 7256.666666666667,
+      "avg_sentence_count": 161.33333333333334,
+      "avg_ttr": 0.9254237421628344
+    },
+    "sentiment_analysis": {
+      "avg_confidence": 0.7437014201451244,
+      "avg_sentiment": 0.019529456287773132,
+      "sentiment_diversity": 0.5838802159963506,
+      "data_points": 

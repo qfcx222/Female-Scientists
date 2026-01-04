@@ -1,0 +1,438 @@
+{
+  "nodes": [
+    {
+      "id": "屠呦呦",
+      "type": "scientist",
+      "size": 2000
+    },
+    {
+      "id": "居里夫人",
+      "type": "scientist",
+      "size": 2000
+    },
+    {
+      "id": "吴健雄",
+      "type": "scientist",
+      "size": 2000
+    },
+    {
+      "id": "何泽慧",
+      "type": "scientist",
+      "size": 2000
+    },
+    {
+      "id": "谢希德",
+      "type": "scientist",
+      "size": 2000
+    },
+    {
+      "id": "林巧稚",
+      "type": "scientist",
+      "size": 2000
+    },
+    {
+      "id": "杜德娜",
+      "type": "scientist",
+      "size": 2000
+    },
+    {
+      "id": "丽丝·迈特纳",
+      "type": "scientist",
+      "size": 2000
+    },
+    {
+      "id": "卡塔林·考里科",
+      "type": "scientist",
+      "size": 2000
+    },
+    {
+      "id": "埃达·洛夫莱斯",
+      "type": "scientist",
+      "size": 2000
+    },
+    {
+      "id": "屠濂规",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "姚仲千",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "李廷钊",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "楼之岑",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "林达尔",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "威廉姆·坎贝尔",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "大村智",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "皮埃尔·居里",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "玛丽·居里",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "艾芙·居里",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "伊雷娜·约里奥-居里",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "袁家骝",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "李政道",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "杨振宁",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "钱学森",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "钱三强",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "何泽明",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "王大珩",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "曹天钦",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "黄昆",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "王守武",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "协和医院",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "北京协和医学院",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "查尔斯·格利斯曼",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "埃马纽埃尔·卡彭蒂耶",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "奥托·哈恩",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "弗里茨·施特拉斯曼",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "德鲁·韦斯曼",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "乌尔里希·瓦莱",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "查尔斯·巴贝奇",
+      "type": "person",
+      "size": 1000
+    },
+    {
+      "id": "维多利亚女王",
+      "type": "person",
+      "size": 1000
+    }
+  ],
+  "edges": [
+    {
+      "source": "屠呦呦",
+      "target": "屠濂规",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "屠呦呦",
+      "target": "姚仲千",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "屠呦呦",
+      "target": "李廷钊",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "屠呦呦",
+      "target": "楼之岑",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "屠呦呦",
+      "target": "林达尔",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "屠呦呦",
+      "target": "威廉姆·坎贝尔",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "屠呦呦",
+      "target": "大村智",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "屠呦呦",
+      "target": "居里夫人",
+      "relation": "科学合作",
+      "weight": 2,
+      "field": "医学研究"
+    },
+    {
+      "source": "居里夫人",
+      "target": "皮埃尔·居里",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "居里夫人",
+      "target": "玛丽·居里",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "居里夫人",
+      "target": "艾芙·居里",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "居里夫人",
+      "target": "伊雷娜·约里奥-居里",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "居里夫人",
+      "target": "丽丝·迈特纳",
+      "relation": "科学合作",
+      "weight": 2,
+      "field": "放射性研究"
+    },
+    {
+      "source": "吴健雄",
+      "target": "袁家骝",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "吴健雄",
+      "target": "李政道",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "吴健雄",
+      "target": "杨振宁",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "吴健雄",
+      "target": "钱学森",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "吴健雄",
+      "target": "何泽慧",
+      "relation": "科学合作",
+      "weight": 2,
+      "field": "物理学研究"
+    },
+    {
+      "source": "何泽慧",
+      "target": "钱三强",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "何泽慧",
+      "target": "钱学森",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "何泽慧",
+      "target": "何泽明",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "何泽慧",
+      "target": "王大珩",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "谢希德",
+      "target": "曹天钦",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "谢希德",
+      "target": "黄昆",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "谢希德",
+      "target": "王守武",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "谢希德",
+      "target": "杜德娜",
+      "relation": "科学合作",
+      "weight": 2,
+      "field": "生物医学研究"
+    },
+    {
+      "source": "林巧稚",
+      "target": "协和医院",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "林巧稚",
+      "target": "北京协和医学院",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "杜德娜",
+      "target": "查尔斯·格利斯曼",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "杜德娜",
+      "target": "埃马纽埃尔·卡彭蒂耶",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "杜德娜",
+      "target": "卡塔林·考里科",
+      "relation": "科学合作",
+      "weight": 2,
+      "field": "生物化学研究"
+    },
+    {
+      "source": "丽丝·迈特纳",
+      "target": "奥托·哈恩",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "丽丝·迈特纳",
+      "target": "弗里茨·施特拉斯曼",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "卡塔林·考里科",
+      "target": "德鲁·韦斯曼",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "卡塔林·考里科",
+      "target": "乌尔里希·瓦莱",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "埃达·洛夫莱斯",
+      "target": "查尔斯·巴贝奇",
+      "relation": "关联人物",
+      "weight": 1
+    },
+    {
+      "source": "埃达·洛夫莱斯",
+      "target": "维多利亚女王",
+      "relation": "关联人物",
+      "weight": 1
+    }
+  ]
+}

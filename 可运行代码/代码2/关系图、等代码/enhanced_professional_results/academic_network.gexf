@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-12-02">
+    <creator>NetworkX 3.6</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="sentiment" type="float" />
+      <attribute id="2" title="sentiment_confidence" type="float" />
+      <attribute id="3" title="word_count" type="long" />
+      <attribute id="4" title="sentence_count" type="long" />
+      <attribute id="5" title="ttr" type="double" />
+    </attributes>
+    <nodes>
+      <node id="丽丝·迈特纳" label="丽丝·迈特纳">
+        <attvalues>
+          <attvalue for="0" value="scientist" />
+          <attvalue for="1" value="0.08500333333333332" />
+          <attvalue for="2" value="0.6923191999122034" />
+          <attvalue for="3" value="45" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="0.9555555555555556" />
+        </attvalues>
+      </node>
+      <node id="何泽慧" label="何泽慧">
+        <attvalues>
+          <attvalue for="0" value="scientist" />
+          <attvalue for="1" value="-0.0021880022250476794" />
+          <attvalue for="2" value="0.591375616338067" />
+          <attvalue for="3" value="8742" />
+          <attvalue for="4" value="249" />
+          <attvalue for="5" value="0.9256463051933196" />
+        </attvalues>
+      </node>
+      <node id="卡塔林·考里科" label="卡塔林·考里科">
+        <attvalues>
+          <attvalue for="0" value="scientist" />
+          <attvalue for="1" value="-0.004683958333333325" />
+          <attvalue for="2" value="0.4961232780589843" />
+          <attvalue for="3" value="7016" />
+          <attvalue for="4" value="16" />
+          <attvalue for="5" value="0.992588369441277" />
+        </attvalues>
+      </node>
+      <node id="吴健雄" label="吴健雄">
+        <attvalues>
+          <attvalue for="0" value="scientist" />
+          <attvalue for="1" value="0.005994813725490195" />
+          <attvalue for="2" value="0.6760381648764262" />
+          <attvalue for="3" value="12135" />
+          <attvalue for="4" value="102" />
+          <attvalue for="5" value="0.8831479192418624" />
+        </attvalues>
+      </node>
+      <node id="埃达·洛夫莱斯" label="埃达·洛夫莱斯">
+        <attvalues>
+          <attvalue for="0" value="scientist" />
+          <attvalue for="1" value="0.014345485149509105" />
+          <attvalue for="2" value="0.693616946937007" />
+          <attvalue for="3" value="4561" />
+          <attvalue for="4" value="248" />
+          <attvalue for="5" value="0.6919535189651392" />
+        </attvalues>
+      </node>
+      <node id="居里夫人传 )" label="居里夫人传 )">
+        <attvalues>
+          <attvalue for="0" value="scientist" />
+          <attvalue for="1" value="0.00036544851258581227" />
+          <attvalue for="2" value="0.5992785637799889" />
+          <attvalue for="3" value="12296" />
+          <attvalue for="4" value="439" />
+          <attvalue for="5" value="0.974544567338972" />
+        </attvalues>
+      </node>
+      <node id="屠呦呦" label="屠呦呦">
+        <attvalues>
+          <attvalue for="0" value="scientist" />
+          <attvalue for="1" value="0.007959117647058823" />
+          <attvalue for="2" value="0.7135550328678804" />
+          <attvalue for="3" value="3300" />
+          <attvalue for="4" value="35" />
+          <attvalue for="5" value="0.9263636363636364" />
+        </attvalues>
+      </node>
+      <node id="杜德娜" label="杜德娜">
+        <attvalues>
+          <attvalue for="0" value="scientist" />
+          <attvalue for="1" value="0.47227697304513677" />
+          <attvalue for="2" value="0.5" />
+          <attvalue for="3" value="5701" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="0.9861427819680758" />
+        </attvalues>
+      </node>
+      <node id="林巧稚" label="林巧稚">
+        <attvalues>
+          <attvalue for="0" value="scientist" />
+          <attvalue for="1" value="0.00331323849372385" />
+          <attvalue for="2" value="0.8971771758321101" />
+          <attvalue for="3" value="7834" />
+          <attvalue for="4" value="242" />
+          <attvalue for="5" value="0.9948940515700792" />
+        </attvalues>
+      </node>
+      <node id="谢希德" label="谢希德">
+        <attvalues>
+          <attvalue for="0" value="scientist" />
+          <attvalue for="1" value="0.008128260570304816" />
+          <attvalue for="2" value="0.6302752620137622" />
+          <attvalue for="3" value="9384" />
+          <attvalue for="4" value="117" />
+          <attvalue for="5" value="0.9847612958226769" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges />
+  </graph>
+</gexf>

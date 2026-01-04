@@ -1,0 +1,100 @@
+2025-12-02 16:23:39,816 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-12-02 16:23:40,180 - jieba - DEBUG - Dumping model to file cache C:\Users\19798\AppData\Local\Temp\jieba.cache
+2025-12-02 16:23:40,212 - jieba - DEBUG - Loading model cost 0.395 seconds.
+2025-12-02 16:23:40,213 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-12-02 16:23:40,217 - __main__ - INFO - 初始化中文分析器: input=D:\Project\shuju\.venv\wenjian, output=chinese_analysis_results
+2025-12-02 16:23:40,217 - __main__ - INFO - ============================================================
+2025-12-02 16:23:40,217 - __main__ - INFO - 🚀 开始中文女科学家传记分析
+2025-12-02 16:23:40,217 - __main__ - INFO - ============================================================
+2025-12-02 16:23:40,217 - __main__ - INFO - 开始加载和预处理中文Word文档...
+2025-12-02 16:23:40,718 - __main__ - WARNING - 句子数量不足: 丽丝·迈特纳
+2025-12-02 16:24:17,604 - __main__ - INFO - 预处理完成: 9/10 篇传记，耗时: 37.4秒
+2025-12-02 16:24:17,605 - __main__ - INFO - 开始中文情感分析...
+2025-12-02 16:24:20,948 - __main__ - INFO - 情感分析完成，耗时: 3.3秒
+2025-12-02 16:24:20,948 - __main__ - INFO - 平均情感分数: 0.003
+2025-12-02 16:24:20,948 - __main__ - INFO - 开始构建中文关系网络...
+2025-12-02 16:24:45,948 - __main__ - INFO - 关系网络构建完成，耗时: 25.0秒
+2025-12-02 16:24:45,948 - __main__ - INFO - 网络统计: 304节点, 357边, 密度: 0.008
+2025-12-02 16:24:45,949 - __main__ - INFO - 开始中文主题建模 (LDA)...
+2025-12-02 16:24:45,987 - __main__ - INFO - 主题建模完成，耗时: 0.0秒
+2025-12-02 16:24:45,988 - __main__ - INFO - 主题质量: 平均一致性 0.311
+2025-12-02 16:24:45,988 - __main__ - INFO - 创建可视化图表...
+2025-12-02 16:25:20,677 - __main__ - INFO - 情感分析图表已保存至: chinese_analysis_results\sentiment_analysis_chinese.png
+2025-12-02 16:25:31,580 - __main__ - INFO - 关系网络图表已保存至: chinese_analysis_results\relationship_network_chinese.png
+2025-12-02 16:25:58,228 - __main__ - INFO - 主题建模图表已保存至: chinese_analysis_results\topic_modeling_chinese.png
+2025-12-02 16:26:24,205 - __main__ - INFO - 综合图表已保存至: chinese_analysis_results\comprehensive_analysis_chinese.png
+2025-12-02 16:26:24,205 - __main__ - INFO - 可视化图表创建完成
+2025-12-02 16:26:24,205 - __main__ - INFO - 导出中文分析结果...
+2025-12-02 16:26:24,986 - __main__ - INFO - Excel格式结果已导出
+2025-12-02 16:26:24,986 - __main__ - ERROR - 分析过程中出现严重错误: Object of type int64 is not JSON serializable
+Traceback (most recent call last):
+  File "D:\Project\shuju\.venv\try best.py", line 1764, in run_complete_analysis
+    self.export_results()
+  File "D:\Project\shuju\.venv\try best.py", line 1662, in export_results
+    json.dump(full_data, f, indent=2, ensure_ascii=False)
+  File "C:\Users\19798\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Users\19798\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\19798\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\19798\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\19798\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\19798\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\19798\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int64 is not JSON serializable
+2025-12-28 20:23:56,253 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2025-12-28 20:23:56,641 - jieba - DEBUG - Dumping model to file cache C:\Users\19798\AppData\Local\Temp\jieba.cache
+2025-12-28 20:23:56,670 - jieba - DEBUG - Loading model cost 0.416 seconds.
+2025-12-28 20:23:56,670 - jieba - DEBUG - Prefix dict has been built successfully.
+2025-12-28 20:23:56,674 - __main__ - INFO - 初始化中文分析器: input=D:\Project\shuju\.venv\wenjian, output=chinese_analysis_results
+2025-12-28 20:23:56,674 - __main__ - INFO - ============================================================
+2025-12-28 20:23:56,674 - __main__ - INFO - 🚀 开始中文女科学家传记分析
+2025-12-28 20:23:56,674 - __main__ - INFO - ============================================================
+2025-12-28 20:23:56,674 - __main__ - INFO - 开始加载和预处理中文Word文档...
+2025-12-28 20:23:57,114 - __main__ - WARNING - 句子数量不足: 丽丝·迈特纳
+2025-12-28 20:24:34,766 - __main__ - INFO - 预处理完成: 9/10 篇传记，耗时: 38.1秒
+2025-12-28 20:24:34,766 - __main__ - INFO - 开始中文情感分析...
+2025-12-28 20:24:38,245 - __main__ - INFO - 情感分析完成，耗时: 3.5秒
+2025-12-28 20:24:38,245 - __main__ - INFO - 平均情感分数: 0.003
+2025-12-28 20:24:38,245 - __main__ - INFO - 开始构建中文关系网络...
+2025-12-28 20:25:03,602 - __main__ - INFO - 关系网络构建完成，耗时: 25.4秒
+2025-12-28 20:25:03,602 - __main__ - INFO - 网络统计: 304节点, 357边, 密度: 0.008
+2025-12-28 20:25:03,602 - __main__ - INFO - 开始中文主题建模 (LDA)...
+2025-12-28 20:25:03,639 - __main__ - INFO - 主题建模完成，耗时: 0.0秒
+2025-12-28 20:25:03,639 - __main__ - INFO - 主题质量: 平均一致性 0.311
+2025-12-28 20:25:03,639 - __main__ - INFO - 创建可视化图表...
+2025-12-28 20:25:13,072 - __main__ - INFO - 情感分析图表已保存至: chinese_analysis_results\sentiment_analysis_chinese.png
+2025-12-28 20:25:16,876 - __main__ - INFO - 关系网络图表已保存至: chinese_analysis_results\relationship_network_chinese.png
+2025-12-28 20:25:25,539 - __main__ - INFO - 主题建模图表已保存至: chinese_analysis_results\topic_modeling_chinese.png
+2025-12-28 20:27:20,400 - __main__ - INFO - 综合图表已保存至: chinese_analysis_results\comprehensive_analysis_chinese.png
+2025-12-28 20:27:20,400 - __main__ - INFO - 可视化图表创建完成
+2025-12-28 20:27:20,400 - __main__ - INFO - 导出中文分析结果...
+2025-12-28 20:27:21,761 - __main__ - INFO - Excel格式结果已导出
+2025-12-28 20:27:21,762 - __main__ - ERROR - 分析过程中出现严重错误: Object of type int64 is not JSON serializable
+Traceback (most recent call last):
+  File "D:\Project\shuju\.venv\try best.py", line 1764, in run_complete_analysis
+    self.export_results()
+  File "D:\Project\shuju\.venv\try best.py", line 1662, in export_results
+    json.dump(full_data, f, indent=2, ensure_ascii=False)
+  File "C:\Users\19798\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Users\19798\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\19798\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\19798\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\19798\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\19798\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\19798\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int64 is not JSON serializable

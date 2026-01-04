@@ -1,0 +1,21 @@
+{
+  "analysis_metadata": {
+    "timestamp": "2025-12-02T14:56:11.916750",
+    "input_path": "D:\\Project\\shuju\\.venv\\wenjian",
+    "output_folder": "enhanced_professional_results",
+    "num_scientists": 10,
+    "analysis_version": "enhanced_professional_v1.0"
+  },
+  "quality_metrics": {
+    "data_loading": {
+      "total_files": 10,
+      "valid_files": 10,
+      "success_rate": 1.0,
+      "avg_text_length": 7101.4,
+      "avg_sentence_count": 145.3
+    },
+    "sentiment_analysis": {
+      "avg_confidence": 0.648975924061643,
+      "avg_sentiment": 0.059051470991876166,
+      "sentiment_diversity": 0.4985992187127044,
+      "data_points": 
